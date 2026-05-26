@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLDIER BOY - The Original Superhero</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@400;600;700&family=Roboto+Condensed:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-icon">🛡️</span>
+            <span class="brand-text">SOLDIER BOY</span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" class="active">HOME</a></li>
+            <li><a href="#bio">BIO</a></li>
+            <li><a href="#powers">POWERS</a></li>
+            <li><a href="#quotes">QUOTES</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">THE BOYS</div>
+            <h1 class="hero-title">SOLDIER BOY</h1>
+            <p class="hero-subtitle">"I'M THE GODDAMN HERO"</p>
+            <div class="hero-stats-bar">
+                <div class="stat-item">
+                    <span class="stat-num">1944</span>
+                    <span class="stat-label">DEBUT</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">V</span>
+                    <span class="stat-label">COMPOUND</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">#1</span>
+                    <span class="stat-label">PAYBACK</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#bio" class="btn btn-primary">WHO IS HE?</a>
+                <a href="#quotes" class="btn btn-outline">BEST QUOTES</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>SCROLL DOWN</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- BIO SECTION -->
+    <section id="bio" class="section bio-section">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2>THE ORIGINAL</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="bio-grid">
+            <div class="bio-card">
+                <div class="bio-card-header">
+                    <span class="bio-icon">🦸</span>
+                    <h3>WHO IS SOLDIER BOY?</h3>
+                </div>
+                <p>Soldier Boy (real name <strong>Ben</strong>) is the original superhero — the very first Compound V-enhanced individual created by Vought-American. As the leader of <strong>Payback</strong> (the precursor to The Seven), he was America's golden boy in the 1940s-80s. Beneath the star-spangled bravado lies a ruthless, traumatized killer who will do <em>anything</em> to reclaim his legacy.</p>
+            </div>
+            <div class="bio-card">
+                <div class="bio-card-header">
+                    <span class="bio-icon">📜</span>
+                    <h3>HISTORY</h3>
+                </div>
+                <p>Created by Vought in 1944, Soldier Boy was the prototype for all modern supes. He led Payback through decades of missions — both real and fabricated. After a disastrous mission in Nicaragua (1984), he was <strong>betrayed by his own team</strong> and captured by the Russians, where he was held and experimented on for <strong>40 years</strong> before being freed in the present day.</p>
+            </div>
+            <div class="bio-card">
+                <div class="bio-card-header">
+                    <span class="bio-icon">🎭</span>
+                    <h3>PERSONALITY</h3>
+                </div>
+                <p>Arrogant, charismatic, and dangerously unstable. Soldier Boy is a walking contradiction — a <strong>patriotic icon</strong> who despises modern America, a <strong>hero</strong> who revels in collateral damage, and a <strong>leader</strong> who demands absolute loyalty while giving none. His time in Russian captivity has left him with severe PTSD and an uncontrollable rage.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- POWERS SECTION -->
+    <section id="powers" class="section powers-section">
+        <div class="section-header light">
+            <span class="section-number">02</span>
+            <h2>POWERS & ABILITIES</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="powers-grid">
+            <div class="power-card" style="--power-color: #ff4444;">
+                <div class="power-icon">💥</div>
+                <h3>CHEST BLAST</h3>
+                <div class="power-meter">
+                    <div class="power-meter-fill" style="width: 100%;"></div>
+                </div>
+                <p>Unleashes a devastating energy blast from his chest, capable of destroying buildings and vaporizing enemies. His signature and most feared ability.</p>
+                <span class="power-rating">POWER LEVEL: 10/10</span>
+            </div>
+            <div class="power-card" style="--power-color: #ffaa00;">
+                <div class="power-icon">🛡️</div>
+                <h3>SUPER STRENGTH</h3>
+                <div class="power-meter">
+                    <div class="power-meter-fill" style="width: 95%;"></div>
+                </div>
+                <p>Enhanced strength far beyond any normal human. Can punch through concrete, throw vehicles, and go toe-to-toe with Homelander.</p>
+                <span class="power-rating">POWER LEVEL: 9.5/10</span>
+            </div>
+            <div class="power-card" style="--power-color: #44aaff;">
+                <div class="power-icon">⚡</div>
+                <h3>DURABILITY</h3>
+                <div class="power-meter">
+                    <div class="power-meter-fill" style="width: 98%;"></div>
+                </div>
+                <p>Near-impenetrable skin and advanced healing. Survived 40 years of Russian experimentation and can withstand massive physical trauma.</p>
+                <span class="power-rating">POWER LEVEL: 9.8/10</span>
+            </div>
+            <div class="power-card" style="--power-color: #ff66cc;">
+                <div class="power-icon">🏃</div>
+                <h3>COMBAT MASTERY</h3>
+                <div class="power-meter">
+                    <div class="power-meter-fill" style="width: 90%;"></div>
+                </div>
+                <p>Decades of military combat experience. Expert in hand-to-hand combat, weapons handling, and tactical warfare.</p>
+                <span class="power-rating">POWER LEVEL: 9/10</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTES SECTION -->
+    <section id="quotes" class="section quotes-section">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2>CLASSIC QUOTES</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="quotes-slider" id="quotesSlider">
+            <div class="quote-card active">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">I'm the goddamn hero. Not you. Not some wannabe in a cape. ME.</p>
+                <p class="quote-source">— Soldier Boy to Homelander</p>
+            </div>
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">You think you're the first superhero? Please. I was doing this before you were a twinkle in Vought's eye.</p>
+                <p class="quote-source">— Soldier Boy</p>
+            </div>
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">I don't need a team. I never did. They were just... props. I'm the star.</p>
+                <p class="quote-source">— Soldier Boy on Payback</p>
+            </div>
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">Forty years. Forty years they took from me. And now I want it all back.</p>
+                <p class="quote-source">— Soldier Boy on his captivity</p>
+            </div>
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">I'm not a villain. I'm not a hero. I'm just... the original. And that means something.</p>
+                <p class="quote-source">— Soldier Boy</p>
+            </div>
+        </div>
+        <div class="quotes-controls">
+            <button class="quote-btn" onclick="prevQuote()">◀ PREV</button>
+            <div class="quote-dots" id="quoteDots"></div>
+            <button class="quote-btn" onclick="nextQuote()">NEXT ▶</button>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="section gallery-section">
+        <div class="section-header light">
+            <span class="section-number">04</span>
+            <h2>GALLERY</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item" style="--img: 'SOLDIER';">
+                <div class="gallery-placeholder soldier-boy-1">
+                    <span class="gallery-icon">🛡️</span>
+                    <span class="gallery-label">THE SHIELD</span>
+                </div>
+            </div>
+            <div class="gallery-item" style="--img: 'CHEST';">
+                <div class="gallery-placeholder soldier-boy-2">
+                    <span class="gallery-icon">💥</span>
+                    <span class="gallery-label">CHEST BLAST</span>
+                </div>
+            </div>
+            <div class="gallery-item" style="--img: 'TEAM';">
+                <div class="gallery-placeholder soldier-boy-3">
+                    <span class="gallery-icon">👥</span>
+                    <span class="gallery-label">PAYBACK</span>
+                </div>
+            </div>
+            <div class="gallery-item" style="--img: 'CAPE';">
+                <div class="gallery-placeholder soldier-boy-4">
+                    <span class="gallery-icon">🇺🇸</span>
+                    <span class="gallery-label">THE ORIGINAL</span>
+                </div>
+            </div>
+            <div class="gallery-item" style="--img: 'FIST';">
+                <div class="gallery-placeholder soldier-boy-5">
+                    <span class="gallery-icon">👊</span>
+                    <span class="gallery-label">AMERICAN ICON</span>
+                </div>
+            </div>
+            <div class="gallery-item" style="--img: 'RAGE';">
+                <div class="gallery-placeholder soldier-boy-6">
+                    <span class="gallery-icon">🔥</span>
+                    <span class="gallery-label">UNLEASHED</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="brand-icon">🛡️</span>
+                <span class="brand-text">SOLDIER BOY</span>
+            </div>
+            <p class="footer-tagline">"I'm the goddamn hero."</p>
+            <div class="footer-links">
+                <a href="#hero">HOME</a>
+                <a href="#bio">BIO</a>
+                <a href="#powers">POWERS</a>
+                <a href="#quotes">QUOTES</a>
+                <a href="#gallery">GALLERY</a>
+            </div>
+            <div class="footer-divider"></div>
+            <p class="footer-disclaimer">
+                ⚠️ This is a fan website. Soldier Boy is a property of Amazon / The Boys / Dynamite Entertainment.<br>
+                Made with 💪 by a fan. Not affiliated with Vought International.<br>
+                <span class="footer-fun">"Supe shit" — Butcher</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
